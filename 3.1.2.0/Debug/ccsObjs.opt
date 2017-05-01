@@ -1,0 +1,1 @@
+"./main.obj" "../lnk_msp430f6638.cmd" -l"libmath.a" -l"libc.a" 

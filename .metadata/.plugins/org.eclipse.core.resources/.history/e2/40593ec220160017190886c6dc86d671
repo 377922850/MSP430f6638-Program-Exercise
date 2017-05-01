@@ -1,0 +1,6 @@
+#include <msp430f6638.h>
+
+void mian(void)
+{
+	WDTCTL = WDTPW + WDTSSEL_1 + WDTTMSEL + WDTCNCTL + WDTIS4;
+}
