@@ -9458,3 +9458,15 @@ java.nio.channels.ClosedByInterruptException
 
 !ENTRY org.eclipse.cdt.core 1 0 2017-05-02 16:26:39.258
 !MESSAGE Indexed '3.6.3extension(complex)' (1 sources, 0 headers) in 0.01 sec: 22 declarations; 113 references; 1 unresolved inclusions; 0 syntax errors; 91 unresolved names (40.27%)
+
+!ENTRY com.ti.ccstudio.buildDefinitions.core 2 0 2017-05-02 16:36:10.088
+!MESSAGE Unrecognized option setting '--cinit_hold_wdt=on' for tool 'com.ti.ccstudio.buildDefinitions.MSP430_4.2.exe.compilerDebug.165220204'
+
+!ENTRY com.ti.ccstudio.buildDefinitions.core 2 0 2017-05-02 16:36:10.106
+!MESSAGE Unrecognized option setting '--cinit_hold_wdt=on' for tool 'com.ti.ccstudio.buildDefinitions.MSP430_4.2.exe.compilerRelease.790685526'
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-05-02 16:36:10.265
+!MESSAGE Indexed '3.6.3extension(simple)' (1 sources, 0 headers) in 0.00 sec: 2 declarations; 0 references; 1 unresolved inclusions; 0 syntax errors; 3 unresolved names (60.00%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-05-02 16:36:11.737
+!MESSAGE Indexed '3.6.3extension(simple)' (1 sources, 4 headers) in 0.32 sec: 986 declarations; 1,258 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)

@@ -1,15 +1,4 @@
 
-**** Clean-only build of configuration Debug for project 3.6.3extension(complex) ****
-
-"D:\\CCS\\ccsv5\\utils\\bin\\gmake" -k clean 
-DEL /F  "3.6.3extension.out"
-DEL /F "main.pp" 
-DEL /F "main.obj" 
-'Finished clean'
-' '
-
-**** Build Finished ****
-
 **** Build of configuration Debug for project 3.6.3extension(complex) ****
 
 "D:\\CCS\\ccsv5\\utils\\bin\\gmake" -k all 
