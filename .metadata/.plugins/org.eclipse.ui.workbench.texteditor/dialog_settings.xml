@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item value="TA0CTL = TASSEL_1 + MC_1 + TACLR;              //TA0控制寄存器：时钟源选择为ACLK 工作模式选择为增记数  清0" key="selection"/>
+		<list key="findhistory">
+			<item value="TA0CTL = TASSEL_1 + MC_1 + TACLR;              //TA0控制寄存器：时钟源选择为ACLK 工作模式选择为增记数  清0"/>
+		</list>
+	</section>
+</section>

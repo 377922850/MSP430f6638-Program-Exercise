@@ -42,58 +42,33 @@
 <part id="3"/>
 <part id="4"/>
 <part id="5"/>
-<part id="6"/>
-<part id="7"/>
-<part id="8"/>
-<part id="9"/>
-<part id="10"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" partName="main.c" path="D:/CCS/ccs engineing/3.4.2 interrupt/main.c" title="main.c" tooltip="3.4.2 interrupt/main.c" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/3.4.2 interrupt/main.c"/>
-<editorState selectionHorizontalPixel="0" selectionLength="33" selectionOffset="268" selectionTopPixel="150"/>
-</editor>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" partName="main.c" path="D:/CCS/ccs engineing/duan lcd/main.c" title="main.c" tooltip="duan lcd/main.c" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/duan lcd/main.c"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1610" selectionTopPixel="0"/>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" partName="main.c" path="D:/CCS/ccs engineing/chinese-english register/main.c" title="main.c" tooltip="chinese-english register/main.c" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/chinese-english register/main.c"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="109" selectionTopPixel="0"/>
 </editor>
 <editor id="org.eclipse.cdt.ui.editor.CEditor" name="msp430f6638.h" partName="msp430f6638.h" title="msp430f6638.h" tooltip="D:\CCS\ccsv5\ccs_base\msp430\include\msp430f6638.h" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.cdt.ui.ExternalEditorInputFactory" path="D:\CCS\ccsv5\ccs_base\msp430\include\msp430f6638.h" project="duan lcd"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="136161" selectionTopPixel="41591"/>
-</editor>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" partName="main.c" path="D:/CCS/ccs engineing/3.2/main.c" title="main.c" tooltip="3.2/main.c" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/3.2/main.c"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="195" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" partName="main.c" path="D:/CCS/ccs engineing/3.3.3/main.c" title="main.c" tooltip="3.3.3/main.c" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/3.3.3/main.c"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="193" selectionTopPixel="0"/>
-</editor>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" partName="main.c" path="D:/CCS/ccs engineing/3.4.1/main.c" title="main.c" tooltip="3.4.1/main.c" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/3.4.1/main.c"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="553" selectionTopPixel="98"/>
-</editor>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" partName="main.c" path="D:/CCS/ccs engineing/3.2 entension/main.c" title="main.c" tooltip="3.2 entension/main.c" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/3.2 entension/main.c"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="228" selectionTopPixel="0"/>
+<input factoryID="org.eclipse.cdt.ui.ExternalEditorInputFactory" path="D:\CCS\ccsv5\ccs_base\msp430\include\msp430f6638.h" project="chinese-english register"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="27839" selectionTopPixel="9661"/>
 </editor>
 <editor id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" partName="main.c" path="D:/CCS/ccs engineing/3.3.1/main.c" title="main.c" tooltip="3.3.1/main.c" workbook="DefaultEditorWorkbook">
 <input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/3.3.1/main.c"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="1168" selectionTopPixel="190"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="273" selectionTopPixel="0"/>
 </editor>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" partName="main.c" path="D:/CCS/ccs engineing/3.1.2extension/main.c" title="main.c" tooltip="3.1.2extension/main.c" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/3.1.2extension/main.c"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="133" selectionTopPixel="0"/>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" partName="main.c" path="D:/CCS/ccs engineing/3.3.3/main.c" title="main.c" tooltip="3.3.3/main.c" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/3.3.3/main.c"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
 </editor>
-<editor activePart="true" focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" partName="main.c" path="D:/CCS/ccs engineing/3.1.2.0/main.c" title="main.c" tooltip="3.1.2.0/main.c" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/3.1.2.0/main.c"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="241" selectionTopPixel="0"/>
+<editor id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" partName="main.c" path="D:/CCS/ccs engineing/3.4.1/main.c" title="main.c" tooltip="3.4.1/main.c" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/3.4.1/main.c"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
 </editor>
-<editor id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" partName="main.c" path="D:/CCS/ccs engineing/interrupt void/main.c" title="main.c" tooltip="interrupt void/main.c" workbook="DefaultEditorWorkbook">
-<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/interrupt void/main.c"/>
-<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="372" selectionTopPixel="132"/>
+<editor activePart="true" focus="true" id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" partName="main.c" path="D:/CCS/ccs engineing/3.4.1extension/main.c" title="main.c" tooltip="3.4.1extension/main.c" workbook="DefaultEditorWorkbook">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/3.4.1extension/main.c"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="131" selectionTopPixel="627"/>
 </editor>
 </editors>
 <views>
@@ -741,6 +716,7 @@
 <navigationHistory>
 <editors>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/3.1.2.0/main.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/3.1.2extension/main.c"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/interrupt void/main.c"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/3.4.2 interrupt/main.c"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/duan lcd/main.c"/>
@@ -752,156 +728,164 @@
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/3.3.1/main.c"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/3.1.2extension/main.c"/>
 <editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/interrupt void/main.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/chinese-english register/main.c"/>
+<editor factoryID="org.eclipse.cdt.ui.ExternalEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="D:\CCS\ccsv5\ccs_base\msp430\include\in430.h" project="chinese-english register"/>
+<editor factoryID="org.eclipse.cdt.ui.ExternalEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="D:\CCS\ccsv5\ccs_base\msp430\include\msp430f6638.h" project="chinese-english register"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/chinese-english register/main.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/3.3.1/main.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/3.3.3/main.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/3.4.1/main.c"/>
+<editor factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" path="/3.4.1extension/main.c"/>
 </editors>
 <item historyLabel="main.c" index="1">
-<position info="not_deleted" x="392" y="0"/>
-</item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="218" y="0"/>
-</item>
-<item historyLabel="main.c" index="1">
-<position info="not_deleted" x="296" y="0"/>
-</item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="218" y="0"/>
-</item>
-<item historyLabel="main.c" index="1">
-<position info="not_deleted" x="296" y="0"/>
-</item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="218" y="0"/>
-</item>
-<item historyLabel="main.c" index="1">
-<position info="not_deleted" x="375" y="0"/>
-</item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="218" y="0"/>
-</item>
-<item historyLabel="main.c" index="1">
-<position info="not_deleted" x="375" y="0"/>
-</item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="218" y="0"/>
-</item>
-<item historyLabel="main.c" index="1">
-<position info="not_deleted" x="375" y="0"/>
-</item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="218" y="0"/>
-</item>
-<item historyLabel="main.c" index="1">
-<position info="not_deleted" x="375" y="0"/>
-</item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="218" y="0"/>
-</item>
-<item historyLabel="main.c" index="1">
-<position info="not_deleted" x="375" y="0"/>
-</item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="218" y="0"/>
-</item>
-<item historyLabel="main.c" index="1">
-<position info="not_deleted" x="375" y="0"/>
-</item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="218" y="0"/>
-</item>
-<item historyLabel="main.c" index="1">
-<position info="not_deleted" x="375" y="0"/>
-</item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="51" y="0"/>
-</item>
-<item historyLabel="main.c" index="1">
-<position info="not_deleted" x="375" y="0"/>
-</item>
-<item historyLabel="main.c" index="0">
-<position/>
-</item>
-<item historyLabel="main.c" index="1">
-<position info="not_deleted" x="375" y="0"/>
-</item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="164" y="0"/>
-</item>
-<item historyLabel="main.c" index="1">
-<position info="not_deleted" x="375" y="0"/>
-</item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="164" y="0"/>
-</item>
-<item historyLabel="main.c" index="1">
-<position info="not_deleted" x="375" y="0"/>
-</item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="164" y="0"/>
-</item>
-<item historyLabel="main.c" index="1">
-<position info="not_deleted" x="375" y="0"/>
-</item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="164" y="0"/>
-</item>
-<item historyLabel="main.c" index="1">
-<position info="not_deleted" x="375" y="0"/>
-</item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="164" y="0"/>
-</item>
-<item historyLabel="main.c" index="1">
-<position info="not_deleted" x="314" y="0"/>
-</item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="364" y="0"/>
-</item>
-<item historyLabel="main.c" index="1">
-<position info="not_deleted" x="372" y="0"/>
-</item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="364" y="0"/>
-</item>
-<item historyLabel="main.c" index="1">
-<position info="not_deleted" x="372" y="0"/>
-</item>
-<item historyLabel="main.c" index="0">
-<position info="not_deleted" x="364" y="0"/>
+<position info="not_deleted" x="133" y="0"/>
 </item>
 <item historyLabel="main.c" index="2">
-<position info="not_deleted" x="268" y="33"/>
-</item>
-<item historyLabel="main.c" index="3">
-<position info="not_deleted" x="1610" y="0"/>
-</item>
-<item historyLabel="msp430f6638.h" index="4">
-<position info="not_deleted" x="136161" y="0"/>
-</item>
-<item historyLabel="main.c" index="5">
-<position info="not_deleted" x="195" y="0"/>
-</item>
-<item historyLabel="main.c" index="6">
-<position info="not_deleted" x="193" y="0"/>
-</item>
-<item historyLabel="main.c" index="7">
-<position info="not_deleted" x="553" y="0"/>
-</item>
-<item historyLabel="main.c" index="8">
-<position info="not_deleted" x="228" y="0"/>
-</item>
-<item historyLabel="main.c" index="9">
-<position info="not_deleted" x="1168" y="0"/>
-</item>
-<item historyLabel="main.c" index="10">
-<position info="not_deleted" x="133" y="0"/>
-</item>
-<item historyLabel="main.c" index="11">
 <position info="not_deleted" x="372" y="0"/>
 </item>
-<item historyLabel="main.c" index="10">
+<item historyLabel="main.c" index="1">
 <position info="not_deleted" x="133" y="0"/>
 </item>
-<item active="true" historyLabel="main.c" index="0">
-<position info="not_deleted" x="544" y="0"/>
+<item historyLabel="main.c" index="0">
+<position info="not_deleted" x="241" y="0"/>
+</item>
+<item historyLabel="main.c" index="3">
+<position info="not_deleted" x="268" y="33"/>
+</item>
+<item historyLabel="main.c" index="4">
+<position info="not_deleted" x="1610" y="0"/>
+</item>
+<item historyLabel="msp430f6638.h" index="5">
+<position/>
+</item>
+<item historyLabel="main.c" index="6">
+<position info="not_deleted" x="195" y="0"/>
+</item>
+<item historyLabel="main.c" index="7">
+<position info="not_deleted" x="193" y="0"/>
+</item>
+<item historyLabel="main.c" index="8">
+<position info="not_deleted" x="553" y="0"/>
+</item>
+<item historyLabel="main.c" index="9">
+<position info="not_deleted" x="228" y="0"/>
+</item>
+<item historyLabel="main.c" index="10">
+<position info="not_deleted" x="1168" y="0"/>
+</item>
+<item historyLabel="main.c" index="11">
+<position info="not_deleted" x="133" y="0"/>
+</item>
+<item historyLabel="main.c" index="12">
+<position info="not_deleted" x="372" y="0"/>
+</item>
+<item historyLabel="main.c" index="13">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="main.c" index="13">
+<position/>
+</item>
+<item historyLabel="msp430f6638.h" index="5">
+<position/>
+</item>
+<item historyLabel="main.c" index="13">
+<position/>
+</item>
+<item historyLabel="main.c" index="10">
+<position info="not_deleted" x="1168" y="0"/>
+</item>
+<item historyLabel="main.c" index="13">
+<position/>
+</item>
+<item historyLabel="msp430f6638.h" index="5">
+<position info="not_deleted" x="272802" y="16"/>
+</item>
+<item historyLabel="main.c" index="13">
+<position/>
+</item>
+<item historyLabel="main.c" index="13">
+<position/>
+</item>
+<item historyLabel="in430.h" index="14">
+<position info="not_deleted" x="2078" y="7"/>
+</item>
+<item historyLabel="in430.h" index="14">
+<position info="not_deleted" x="2116" y="0"/>
+</item>
+<item historyLabel="in430.h" index="14">
+<position info="not_deleted" x="1289" y="16"/>
+</item>
+<item historyLabel="in430.h" index="14">
+<position info="not_deleted" x="1197" y="0"/>
+</item>
+<item historyLabel="main.c" index="13">
+<position/>
+</item>
+<item historyLabel="msp430f6638.h" index="15">
+<position info="not_deleted" x="260745" y="4"/>
+</item>
+<item historyLabel="main.c" index="13">
+<position/>
+</item>
+<item historyLabel="msp430f6638.h" index="15">
+<position info="not_deleted" x="263278" y="3"/>
+</item>
+<item historyLabel="main.c" index="13">
+<position/>
+</item>
+<item historyLabel="msp430f6638.h" index="15">
+<position info="not_deleted" x="263174" y="10"/>
+</item>
+<item historyLabel="main.c" index="13">
+<position/>
+</item>
+<item historyLabel="msp430f6638.h" index="15">
+<position info="not_deleted" x="264621" y="0"/>
+</item>
+<item historyLabel="main.c" index="13">
+<position/>
+</item>
+<item historyLabel="msp430f6638.h" index="15">
+<position info="not_deleted" x="139596" y="7"/>
+</item>
+<item historyLabel="main.c" index="13">
+<position/>
+</item>
+<item historyLabel="msp430f6638.h" index="15">
+<position info="not_deleted" x="138550" y="10"/>
+</item>
+<item historyLabel="main.c" index="13">
+<position/>
+</item>
+<item historyLabel="msp430f6638.h" index="15">
+<position info="not_deleted" x="135810" y="0"/>
+</item>
+<item historyLabel="main.c" index="13">
+<position/>
+</item>
+<item historyLabel="msp430f6638.h" index="15">
+<position info="not_deleted" x="134963" y="0"/>
+</item>
+<item historyLabel="main.c" index="13">
+<position/>
+</item>
+<item historyLabel="msp430f6638.h" index="15">
+<position info="not_deleted" x="18797" y="11"/>
+</item>
+<item historyLabel="main.c" index="16">
+<position info="not_deleted" x="109" y="0"/>
+</item>
+<item historyLabel="main.c" index="17">
+<position info="not_deleted" x="273" y="0"/>
+</item>
+<item historyLabel="main.c" index="18">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item historyLabel="main.c" index="19">
+<position info="not_deleted" x="0" y="0"/>
+</item>
+<item active="true" historyLabel="main.c" index="20">
+<position info="not_deleted" x="0" y="0"/>
 </item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
@@ -924,6 +908,27 @@
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" tooltip="3.4.1extension/main.c">
+<persistable path="/3.4.1extension/main.c"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" tooltip="3.4.1/main.c">
+<persistable path="/3.4.1/main.c"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" tooltip="3.3.3/main.c">
+<persistable path="/3.3.3/main.c"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" tooltip="3.3.1/main.c">
+<persistable path="/3.3.1/main.c"/>
+</file>
+<file factoryID="org.eclipse.cdt.ui.ExternalEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="msp430f6638.h" tooltip="D:\CCS\ccsv5\ccs_base\msp430\include\msp430f6638.h">
+<persistable path="D:\CCS\ccsv5\ccs_base\msp430\include\msp430f6638.h" project="chinese-english register"/>
+</file>
+<file factoryID="org.eclipse.cdt.ui.ExternalEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="in430.h" tooltip="D:\CCS\ccsv5\ccs_base\msp430\include\in430.h">
+<persistable path="D:\CCS\ccsv5\ccs_base\msp430\include\in430.h" project="chinese-english register"/>
+</file>
+<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" tooltip="chinese-english register/main.c">
+<persistable path="/chinese-english register/main.c"/>
+</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" tooltip="interrupt void/main.c">
 <persistable path="/interrupt void/main.c"/>
 </file>
@@ -933,23 +938,11 @@
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" tooltip="3.1.2extension/main.c">
 <persistable path="/3.1.2extension/main.c"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" tooltip="3.3.1/main.c">
-<persistable path="/3.3.1/main.c"/>
-</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" tooltip="3.2 entension/main.c">
 <persistable path="/3.2 entension/main.c"/>
 </file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" tooltip="3.4.1/main.c">
-<persistable path="/3.4.1/main.c"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" tooltip="3.3.3/main.c">
-<persistable path="/3.3.3/main.c"/>
-</file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" tooltip="3.2/main.c">
 <persistable path="/3.2/main.c"/>
-</file>
-<file factoryID="org.eclipse.cdt.ui.ExternalEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="msp430f6638.h" tooltip="D:\CCS\ccsv5\ccs_base\msp430\include\msp430f6638.h">
-<persistable path="D:\CCS\ccsv5\ccs_base\msp430\include\msp430f6638.h" project="duan lcd"/>
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" tooltip="duan lcd/main.c">
 <persistable path="/duan lcd/main.c"/>
@@ -959,15 +952,6 @@
 </file>
 <file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" tooltip="3.1.1/main.c">
 <persistable path="/3.1.1/main.c"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" tooltip="000/main.c">
-<persistable path="/000/main.c"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" tooltip="led1/main.c">
-<persistable path="/led1/main.c"/>
-</file>
-<file factoryID="org.eclipse.ui.part.FileEditorInputFactory" id="org.eclipse.cdt.ui.editor.CEditor" name="main.c" tooltip="3.1.1extension/main.c">
-<persistable path="/3.1.1extension/main.c"/>
 </file>
 </mruList>
 </workbench>
