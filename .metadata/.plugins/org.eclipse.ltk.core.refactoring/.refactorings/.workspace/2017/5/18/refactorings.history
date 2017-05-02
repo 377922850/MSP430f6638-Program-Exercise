@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;3.6.3extension&apos; to &apos;3.6.3extension(complex)&apos;" description="Rename resource &apos;3.6.3extension&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/3.6.3extension" name="3.6.3extension(complex)" stamp="1493713598143" updateReferences="true"/>
+</session>

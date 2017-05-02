@@ -1,0 +1,25 @@
+
+**** Build of configuration Debug for project 3.6.3extension(complex) ****
+
+"D:\\CCS\\ccsv5\\utils\\bin\\gmake" -k all 
+'Building file: ../main.c'
+'Invoking: MSP430 Compiler'
+"D:/CCS/ccsv5/tools/compiler/msp430_4.2.1/bin/cl430" -vmspx --abi=eabi --include_path="D:/CCS/ccsv5/ccs_base/msp430/include" --include_path="D:/CCS/ccsv5/tools/compiler/msp430_4.2.1/include" --advice:power=all -g --define=__MSP430F6638__ --diag_warning=225 --display_error_number --diag_wrap=off --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --printf_support=minimal --preproc_with_compile --preproc_dependency="main.pp"  "../main.c"
+"../main.c", line 31: remark #1544-D: (ULP 13.1) Detected loop counting up. Recommend loops count down as detecting zeros is easier
+"../main.c", line 31: remark #1527-D: (ULP 2.1) Detected SW delay loop using empty loop. Recommend using a timer module instead
+"../main.c", line 56: remark #1544-D: (ULP 13.1) Detected loop counting up. Recommend loops count down as detecting zeros is easier
+'Finished building: ../main.c'
+' '
+'Building target: 3.6.3extension(complex).out'
+'Invoking: MSP430 Linker'
+"D:/CCS/ccsv5/tools/compiler/msp430_4.2.1/bin/cl430" -vmspx --abi=eabi --advice:power=all -g --define=__MSP430F6638__ --diag_warning=225 --display_error_number --diag_wrap=off --silicon_errata=CPU21 --silicon_errata=CPU22 --silicon_errata=CPU40 --printf_support=minimal -z -m"3.6.3extension(complex).map" --heap_size=160 --stack_size=160 --use_hw_mpy=F5 -i"D:/CCS/ccsv5/ccs_base/msp430/include" -i"D:/CCS/ccsv5/tools/compiler/msp430_4.2.1/lib" -i"D:/CCS/ccsv5/tools/compiler/msp430_4.2.1/include" -i"D:/CCS/ccsv5/ccs_base/msp430/lib" --reread_libs --warn_sections --display_error_number --diag_wrap=off --xml_link_info="3.6.3extension(complex)_linkInfo.xml" --rom_model -o "3.6.3extension(complex).out"  "./main.obj" "../lnk_msp430f6638.cmd" -l"libmath.a" -l"libc.a" 
+<Linking>
+remark #10372-D: (ULP 4.1) Detected uninitialized Port A in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port B in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port C in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port D in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+remark #10372-D: (ULP 4.1) Detected uninitialized Port E in this project. Recommend initializing all unused ports to eliminate wasted current consumption on unused pins.
+'Finished building target: 3.6.3extension(complex).out'
+' '
+
+**** Build Finished ****
