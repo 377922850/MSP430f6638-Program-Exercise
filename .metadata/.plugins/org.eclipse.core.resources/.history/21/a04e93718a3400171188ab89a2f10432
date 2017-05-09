@@ -7,7 +7,7 @@ void darken(void)
 	if(TB0CCR4 > 0)
 	{
 		TB0CCR4 -= duty;
-		TB0CCR5 += duty;
+		TB0CCR5 -= duty;
 	}
 }
 
@@ -16,7 +16,7 @@ void lighten(void)
 	if(TB0CCR4 < 1200)
 	{
 		TB0CCR4 += duty;
-		TB0CCR5 -= duty;
+		TB0CCR5 += duty;
 	}
 }
 
@@ -29,7 +29,7 @@ void main (void)
 	TB0CCTL4 = OUTMOD_7;
 	TB0CCR4 = 1200;
 	TB0CCTL5 = OUTMOD_7;
-	TB0CCR5 = 0;
+	TB0CCR5 = 1200;
 
 	P4DIR |= BIT4 + BIT5;
 	P4SEL |= BIT4 + BIT5;
