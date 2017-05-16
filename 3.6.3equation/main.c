@@ -96,19 +96,23 @@ void main(void)
 	Clear_lcd();
 	Init_TS3A5017();
 	backlight_lcd(1);
-	Init_TAO_onesecond();
 	_BIS_SR(GIE);
+	i = 0;
+	Init_TAO_onesecond();
+	while(1);
 }
 
+// 中断服务程序
 #pragma vector = TIMER0_A0_VECTOR
-__interrupt void circulate()
+__interrupt void circulate(void)
 {
-	for(i=0;i<6;i++)
+	for(j=0 ; j < 6 ; j++)
 	{
-		for(j=0;j<6;j++)
-		{
-			LCDMEM[j] = number[(i+j)%6+1];
-		}
-		delay(5);
+		LCDMEM[j] = number[(i+j)%6+1];
+	}
+	i++;
+	if(i == 6)
+	{
+		i = 0;
 	}
 }

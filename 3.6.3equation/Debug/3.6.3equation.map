@@ -1,10 +1,10 @@
 ******************************************************************************
                   MSP430 Linker PC v4.2.1                      
 ******************************************************************************
->> Linked Tue May 09 16:23:21 2017
+>> Linked Tue May 16 16:08:49 2017
 
 OUTPUT FILE NAME:   <3.6.3equation.out>
-ENTRY POINT SYMBOL: "_c_int00"  address: 00008058
+ENTRY POINT SYMBOL: "_c_int00"  address: 00008048
 
 
 MEMORY CONFIGURATION
@@ -19,8 +19,8 @@ MEMORY CONFIGURATION
   INFOB                 00001900   00000080  00000000  00000080  RWIX
   INFOA                 00001980   00000080  00000000  00000080  RWIX
   USBRAM                00001c00   00000800  00000000  00000800  RWIX
-  RAM                   00002400   00004000  000000a6  00003f5a  RWIX
-  FLASH                 00008000   00007f80  0000023c  00007d44  RWIX
+  RAM                   00002400   00004000  000000a4  00003f5c  RWIX
+  FLASH                 00008000   00007f80  000001fe  00007d82  RWIX
   INT00                 0000ff80   00000002  00000000  00000002  RWIX
   INT01                 0000ff82   00000002  00000000  00000002  RWIX
   INT02                 0000ff84   00000002  00000000  00000002  RWIX
@@ -96,10 +96,9 @@ section   page    origin      length       input sections
 .init_array 
 *          0    00008000    00000000     UNINITIALIZED
 
-.bss       0    00002400    00000006     UNINITIALIZED
+.bss       0    00002400    00000004     UNINITIALIZED
                   00002400    00000002     (.common:i)
                   00002402    00000002     (.common:j)
-                  00002404    00000002     (.common:time)
 
 .TI.noinit 
 *          0    00002400    00000000     UNINITIALIZED
@@ -109,34 +108,32 @@ section   page    origin      length       input sections
                   00006362    0000009e     --HOLE--
 
 .text:_isr 
-*          0    00008000    00000072     
-                  00008000    00000058     main.obj (.text:_isr:circulate)
-                  00008058    0000001a     rts430x_lc_sd_eabi.lib : boot.obj (.text:_isr:_c_int00_noexit)
+*          0    00008000    00000062     
+                  00008000    00000048     main.obj (.text:_isr:circulate)
+                  00008048    0000001a     rts430x_lc_sd_eabi.lib : boot.obj (.text:_isr:_c_int00_noexit)
 
-.const     0    00008072    0000000a     
-                  00008072    0000000a     main.obj (.const:.string:number)
+.const     0    00008062    0000000a     
+                  00008062    0000000a     main.obj (.const:.string:number)
 
-.text      0    0000807c    000001ae     
-                  0000807c    00000070     rts430x_lc_sd_eabi.lib : autoinit.obj (.text:_auto_init)
-                  000080ec    0000003e                            : copy_zero_init.obj (.text:decompress:ZI:__TI_zero_init)
-                  0000812a    00000026     main.obj (.text:main)
-                  00008150    0000001e     main.obj (.text:delay)
-                  0000816e    0000001c     main.obj (.text:backlight_lcd)
-                  0000818a    00000016     main.obj (.text:Clear_lcd)
-                  000081a0    00000016     rts430x_lc_sd_eabi.lib : div16u.obj (.text)
-                  000081b6    00000016                            : mult16_f5hw.obj (.text)
-                  000081cc    00000014     main.obj (.text:Init_TAO_onesecond)
-                  000081e0    00000014     main.obj (.text:Init_TS3A5017)
-                  000081f4    00000014     main.obj (.text:Init_lcd)
-                  00008208    00000014     main.obj (.text:Start_lcd)
-                  0000821c    00000006     rts430x_lc_sd_eabi.lib : isr_trap.obj (.text:__TI_ISR_TRAP)
-                  00008222    00000004                            : pre_init.obj (.text:_system_pre_init)
-                  00008226    00000004                            : exit.obj (.text:abort)
+.text      0    0000806c    00000180     
+                  0000806c    00000070     rts430x_lc_sd_eabi.lib : autoinit.obj (.text:_auto_init)
+                  000080dc    0000003e                            : copy_zero_init.obj (.text:decompress:ZI:__TI_zero_init)
+                  0000811a    0000002c     main.obj (.text:main)
+                  00008146    0000001c     main.obj (.text:backlight_lcd)
+                  00008162    00000016     main.obj (.text:Clear_lcd)
+                  00008178    00000016     rts430x_lc_sd_eabi.lib : div16u.obj (.text)
+                  0000818e    00000014     main.obj (.text:Init_TAO_onesecond)
+                  000081a2    00000014     main.obj (.text:Init_TS3A5017)
+                  000081b6    00000014     main.obj (.text:Init_lcd)
+                  000081ca    00000014     main.obj (.text:Start_lcd)
+                  000081de    00000006     rts430x_lc_sd_eabi.lib : isr_trap.obj (.text:__TI_ISR_TRAP)
+                  000081e4    00000004                            : pre_init.obj (.text:_system_pre_init)
+                  000081e8    00000004                            : exit.obj (.text:abort)
 
-.cinit     0    0000822a    00000012     
-                  0000822a    00000006     (.cinit..bss.load) [load image, compression = zero_init]
-                  00008230    00000004     (__TI_handler_table)
-                  00008234    00000008     (__TI_cinit_table)
+.cinit     0    000081ec    00000012     
+                  000081ec    00000006     (.cinit..bss.load) [load image, compression = zero_init]
+                  000081f2    00000004     (__TI_handler_table)
+                  000081f6    00000008     (__TI_cinit_table)
 
 PORT4      0    0000ffca    00000002     
                   0000ffca    00000002     rts430x_lc_sd_eabi.lib : int37.obj (.int37)
@@ -230,13 +227,13 @@ SYSNMI     0    0000fffc    00000002
 
 LINKER GENERATED COPY TABLES
 
-__TI_cinit_table @ 00008234 records: 1, size/record: 8, table size: 8
-	.bss: load addr=0000822a, load size=00000006 bytes, run addr=00002400, run size=00000006 bytes, compression=zero_init
+__TI_cinit_table @ 000081f6 records: 1, size/record: 8, table size: 8
+	.bss: load addr=000081ec, load size=00000006 bytes, run addr=00002400, run size=00000004 bytes, compression=zero_init
 
 
 LINKER GENERATED HANDLER TABLE
 
-__TI_handler_table @ 00008230 records: 1, size/record: 4, table size: 4
+__TI_handler_table @ 000081f2 records: 1, size/record: 4, table size: 4
 	index: 0, handler: __TI_zero_init
 
 
@@ -346,7 +343,7 @@ address    name
 00000486   BAKMEM3_L
 000004be   BCD2BIN
 000004bc   BIN2BCD
-00008226   C$$EXIT
+000081e8   C$$EXIT
 000008c0   CBCTL0
 000008c1   CBCTL0_H
 000008c0   CBCTL0_L
@@ -375,7 +372,7 @@ address    name
 00000156   CRCRESR
 00000157   CRCRESR_H
 00000156   CRCRESR_L
-0000818a   Clear_lcd
+00008162   Clear_lcd
 00000786   DAC12_0CALCTL
 00000788   DAC12_0CALDAT
 00000780   DAC12_0CTL0
@@ -462,9 +459,9 @@ address    name
 00000146   FCTL4
 00000147   FCTL4_H
 00000146   FCTL4_L
-000081cc   Init_TAO_onesecond
-000081e0   Init_TS3A5017
-000081f4   Init_lcd
+0000818e   Init_TAO_onesecond
+000081a2   Init_TS3A5017
+000081b6   Init_lcd
 00000a04   LCDBBLKCTL
 00000a05   LCDBBLKCTL_H
 00000a04   LCDBBLKCTL_L
@@ -864,7 +861,7 @@ address    name
 0000019a   SYSUNIV
 0000019b   SYSUNIV_H
 0000019a   SYSUNIV_L
-00008208   Start_lcd
+000081ca   Start_lcd
 00000352   TA0CCR0
 00000354   TA0CCR1
 00000356   TA0CCR2
@@ -1157,13 +1154,13 @@ address    name
 0000015c   WDTCTL_L
 00006400   __STACK_END
 000000a0   __STACK_SIZE
-00008234   __TI_CINIT_Base
-0000823c   __TI_CINIT_Limit
-00008230   __TI_Handler_Table_Base
-00008234   __TI_Handler_Table_Limit
+000081f6   __TI_CINIT_Base
+000081fe   __TI_CINIT_Limit
+000081f2   __TI_Handler_Table_Base
+000081f6   __TI_Handler_Table_Limit
 UNDEFED    __TI_INITARRAY_Base
 UNDEFED    __TI_INITARRAY_Limit
-0000821c   __TI_ISR_TRAP
+000081de   __TI_ISR_TRAP
 00000001   __TI_args_main
 00000001   __TI_exit
 0000ffca   __TI_int37
@@ -1192,28 +1189,25 @@ UNDEFED    __TI_INITARRAY_Limit
 0000fff8   __TI_int60
 0000fffa   __TI_int61
 0000fffc   __TI_int62
-000080ec   __TI_zero_init
+000080dc   __TI_zero_init
 ffffffff   __binit__
 ffffffff   __c_args__
-000081a0   __mspabi_divu
-000081b6   __mspabi_mpyi_f5hw
-000081a0   __mspabi_remu
-0000807c   _auto_init
-00008058   _c_int00
-00008058   _c_int00_noexit
+00008178   __mspabi_divu
+00008178   __mspabi_remu
+0000806c   _auto_init
+00008048   _c_int00
+00008048   _c_int00_noexit
 0000fffe   _reset_vector
 00006360   _stack
-00008222   _system_pre_init
-00008226   abort
-0000816e   backlight_lcd
+000081e4   _system_pre_init
+000081e8   abort
+00008146   backlight_lcd
 ffffffff   binit
 00008000   circulate
-00008150   delay
 00002400   i
 00002402   j
-0000812a   main
-00008072   number
-00002404   time
+0000811a   main
+00008062   number
 
 
 GLOBAL SYMBOLS: SORTED BY Symbol Address 
@@ -2130,34 +2124,31 @@ address    name
 000023ff   USBIEPSIZXY_7
 00002400   i
 00002402   j
-00002404   time
 00006360   _stack
 00006400   __STACK_END
 00008000   circulate
-00008058   _c_int00
-00008058   _c_int00_noexit
-00008072   number
-0000807c   _auto_init
-000080ec   __TI_zero_init
-0000812a   main
-00008150   delay
-0000816e   backlight_lcd
-0000818a   Clear_lcd
-000081a0   __mspabi_divu
-000081a0   __mspabi_remu
-000081b6   __mspabi_mpyi_f5hw
-000081cc   Init_TAO_onesecond
-000081e0   Init_TS3A5017
-000081f4   Init_lcd
-00008208   Start_lcd
-0000821c   __TI_ISR_TRAP
-00008222   _system_pre_init
-00008226   C$$EXIT
-00008226   abort
-00008230   __TI_Handler_Table_Base
-00008234   __TI_CINIT_Base
-00008234   __TI_Handler_Table_Limit
-0000823c   __TI_CINIT_Limit
+00008048   _c_int00
+00008048   _c_int00_noexit
+00008062   number
+0000806c   _auto_init
+000080dc   __TI_zero_init
+0000811a   main
+00008146   backlight_lcd
+00008162   Clear_lcd
+00008178   __mspabi_divu
+00008178   __mspabi_remu
+0000818e   Init_TAO_onesecond
+000081a2   Init_TS3A5017
+000081b6   Init_lcd
+000081ca   Start_lcd
+000081de   __TI_ISR_TRAP
+000081e4   _system_pre_init
+000081e8   C$$EXIT
+000081e8   abort
+000081f2   __TI_Handler_Table_Base
+000081f6   __TI_CINIT_Base
+000081f6   __TI_Handler_Table_Limit
+000081fe   __TI_CINIT_Limit
 0000ffca   __TI_int37
 0000ffcc   __TI_int38
 0000ffce   __TI_int39
@@ -2191,4 +2182,4 @@ ffffffff   binit
 UNDEFED    __TI_INITARRAY_Base
 UNDEFED    __TI_INITARRAY_Limit
 
-[970 symbols]
+[967 symbols]
