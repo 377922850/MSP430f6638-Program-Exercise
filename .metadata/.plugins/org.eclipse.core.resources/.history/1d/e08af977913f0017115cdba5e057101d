@@ -127,7 +127,7 @@ void DataDisposalA()
 {
 	average *= 0.806;
 	LCDMEM[2] = number[average / 1000];
-	LCDMEM[3] = number[(average / 100) % 10] + dp;
+	LCDMEM[3] = number[(average / 100) % 10];
 	LCDMEM[4] = number[(average / 10) % 10];
 	LCDMEM[5] = number[average % 10];
 }

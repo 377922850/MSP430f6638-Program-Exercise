@@ -1,7 +1,7 @@
 ******************************************************************************
                   MSP430 Linker PC v4.2.1                      
 ******************************************************************************
->> Linked Tue May 23 16:22:15 2017
+>> Linked Tue May 23 16:26:08 2017
 
 OUTPUT FILE NAME:   <3.7.1digitalB.out>
 ENTRY POINT SYMBOL: "_c_int00"  address: 00008000
@@ -20,7 +20,7 @@ MEMORY CONFIGURATION
   INFOA                 00001980   00000080  00000000  00000080  RWIX
   USBRAM                00001c00   00000800  00000000  00000800  RWIX
   RAM                   00002400   00004000  000000ca  00003f36  RWIX
-  FLASH                 00008000   00007f80  00000a8c  000074f4  RWIX
+  FLASH                 00008000   00007f80  00000a92  000074ee  RWIX
   INT00                 0000ff80   00000002  00000000  00000002  RWIX
   INT01                 0000ff82   00000002  00000000  00000002  RWIX
   INT02                 0000ff84   00000002  00000000  00000002  RWIX
@@ -117,41 +117,41 @@ section   page    origin      length       input sections
 .const     0    0000802c    0000000a     
                   0000802c    0000000a     main.obj (.const:.string:number)
 
-.text      0    00008036    00000a44     
+.text      0    00008036    00000a4a     
                   00008036    000002da     rts430x_lc_sd_eabi.lib : frcmpyd.obj (.text:__TI_frcmpyd)
                   00008310    00000244                            : mpyd.obj (.text:__mspabi_mpyd)
-                  00008554    0000008a     main.obj (.text:DataDisposalA)
-                  000085de    00000082     rts430x_lc_sd_eabi.lib : fixdul.obj (.text:__mspabi_fixdul)
-                  00008660    00000082                            : fltuld.obj (.text:__mspabi_fltuld)
-                  000086e2    00000070                            : autoinit.obj (.text:_auto_init)
-                  00008752    0000005e     main.obj (.text:ADC12DisposalFunction)
-                  000087b0    0000005a     main.obj (.text:DataDisposalB)
-                  0000880a    0000003e     rts430x_lc_sd_eabi.lib : copy_zero_init.obj (.text:decompress:ZI:__TI_zero_init)
-                  00008848    0000003e                            : asr32.obj (.text:l_asr_const)
-                  00008886    0000003e                            : lsl32.obj (.text:l_lsl_const)
-                  000088c4    0000003e                            : lsr32.obj (.text:l_lsr_const)
-                  00008902    0000002e     main.obj (.text:DataDisposalH)
-                  00008930    00000026     main.obj (.text:ADC12Set)
-                  00008956    00000026     main.obj (.text:main)
-                  0000897c    00000022     main.obj (.text:DisposalSelect)
-                  0000899e    00000022     rts430x_lc_sd_eabi.lib : mult32_f5hw.obj (.text)
-                  000089c0    0000001c     main.obj (.text:Backlight_lcd)
-                  000089dc    00000016     main.obj (.text:Clear_lcd)
-                  000089f2    00000016     rts430x_lc_sd_eabi.lib : div16u.obj (.text)
-                  00008a08    00000014     main.obj (.text:Init_TS3A5017)
-                  00008a1c    00000014     main.obj (.text:Init_lcd)
-                  00008a30    00000014     main.obj (.text:Start_lcd)
-                  00008a44    00000012     rts430x_lc_sd_eabi.lib : fixdu.obj (.text:__mspabi_fixdu)
-                  00008a56    00000010                            : lsr32.obj (.text:l_lsr)
-                  00008a66    00000006                            : isr_trap.obj (.text:__TI_ISR_TRAP)
-                  00008a6c    00000006                            : fltud.obj (.text:__mspabi_fltud)
-                  00008a72    00000004                            : pre_init.obj (.text:_system_pre_init)
-                  00008a76    00000004                            : exit.obj (.text:abort)
+                  00008554    00000090     main.obj (.text:DataDisposalA)
+                  000085e4    00000082     rts430x_lc_sd_eabi.lib : fixdul.obj (.text:__mspabi_fixdul)
+                  00008666    00000082                            : fltuld.obj (.text:__mspabi_fltuld)
+                  000086e8    00000070                            : autoinit.obj (.text:_auto_init)
+                  00008758    0000005e     main.obj (.text:ADC12DisposalFunction)
+                  000087b6    0000005a     main.obj (.text:DataDisposalB)
+                  00008810    0000003e     rts430x_lc_sd_eabi.lib : copy_zero_init.obj (.text:decompress:ZI:__TI_zero_init)
+                  0000884e    0000003e                            : asr32.obj (.text:l_asr_const)
+                  0000888c    0000003e                            : lsl32.obj (.text:l_lsl_const)
+                  000088ca    0000003e                            : lsr32.obj (.text:l_lsr_const)
+                  00008908    0000002e     main.obj (.text:DataDisposalH)
+                  00008936    00000026     main.obj (.text:ADC12Set)
+                  0000895c    00000026     main.obj (.text:main)
+                  00008982    00000022     main.obj (.text:DisposalSelect)
+                  000089a4    00000022     rts430x_lc_sd_eabi.lib : mult32_f5hw.obj (.text)
+                  000089c6    0000001c     main.obj (.text:Backlight_lcd)
+                  000089e2    00000016     main.obj (.text:Clear_lcd)
+                  000089f8    00000016     rts430x_lc_sd_eabi.lib : div16u.obj (.text)
+                  00008a0e    00000014     main.obj (.text:Init_TS3A5017)
+                  00008a22    00000014     main.obj (.text:Init_lcd)
+                  00008a36    00000014     main.obj (.text:Start_lcd)
+                  00008a4a    00000012     rts430x_lc_sd_eabi.lib : fixdu.obj (.text:__mspabi_fixdu)
+                  00008a5c    00000010                            : lsr32.obj (.text:l_lsr)
+                  00008a6c    00000006                            : isr_trap.obj (.text:__TI_ISR_TRAP)
+                  00008a72    00000006                            : fltud.obj (.text:__mspabi_fltud)
+                  00008a78    00000004                            : pre_init.obj (.text:_system_pre_init)
+                  00008a7c    00000004                            : exit.obj (.text:abort)
 
-.cinit     0    00008a7a    00000012     
-                  00008a7a    00000006     (.cinit..bss.load) [load image, compression = zero_init]
-                  00008a80    00000004     (__TI_handler_table)
-                  00008a84    00000008     (__TI_cinit_table)
+.cinit     0    00008a80    00000012     
+                  00008a80    00000006     (.cinit..bss.load) [load image, compression = zero_init]
+                  00008a86    00000004     (__TI_handler_table)
+                  00008a8a    00000008     (__TI_cinit_table)
 
 PORT4      0    0000ffca    00000002     
                   0000ffca    00000002     rts430x_lc_sd_eabi.lib : int37.obj (.int37)
@@ -245,13 +245,13 @@ SYSNMI     0    0000fffc    00000002
 
 LINKER GENERATED COPY TABLES
 
-__TI_cinit_table @ 00008a84 records: 1, size/record: 8, table size: 8
-	.bss: load addr=00008a7a, load size=00000006 bytes, run addr=00002400, run size=0000002a bytes, compression=zero_init
+__TI_cinit_table @ 00008a8a records: 1, size/record: 8, table size: 8
+	.bss: load addr=00008a80, load size=00000006 bytes, run addr=00002400, run size=0000002a bytes, compression=zero_init
 
 
 LINKER GENERATED HANDLER TABLE
 
-__TI_handler_table @ 00008a80 records: 1, size/record: 4, table size: 4
+__TI_handler_table @ 00008a86 records: 1, size/record: 4, table size: 4
 	index: 0, handler: __TI_zero_init
 
 
@@ -268,7 +268,7 @@ address    name
 00000704   ADC12CTL2
 00000705   ADC12CTL2_H
 00000704   ADC12CTL2_L
-00008752   ADC12DisposalFunction
+00008758   ADC12DisposalFunction
 0000070c   ADC12IE
 0000070d   ADC12IE_H
 0000070c   ADC12IE_L
@@ -342,7 +342,7 @@ address    name
 00000732   ADC12MEM9
 00000733   ADC12MEM9_H
 00000732   ADC12MEM9_L
-00008930   ADC12Set
+00008936   ADC12Set
 0000049e   BAKCHCTL
 0000049f   BAKCHCTL_H
 0000049e   BAKCHCTL_L
@@ -363,8 +363,8 @@ address    name
 00000486   BAKMEM3_L
 000004be   BCD2BIN
 000004bc   BIN2BCD
-000089c0   Backlight_lcd
-00008a76   C$$EXIT
+000089c6   Backlight_lcd
+00008a7c   C$$EXIT
 000008c0   CBCTL0
 000008c1   CBCTL0_H
 000008c0   CBCTL0_L
@@ -393,7 +393,7 @@ address    name
 00000156   CRCRESR
 00000157   CRCRESR_H
 00000156   CRCRESR_L
-000089dc   Clear_lcd
+000089e2   Clear_lcd
 00000786   DAC12_0CALCTL
 00000788   DAC12_0CALDAT
 00000780   DAC12_0CTL0
@@ -472,9 +472,9 @@ address    name
 0000050f   DMAIV_H
 0000050e   DMAIV_L
 00008554   DataDisposalA
-000087b0   DataDisposalB
-00008902   DataDisposalH
-0000897c   DisposalSelect
+000087b6   DataDisposalB
+00008908   DataDisposalH
+00008982   DisposalSelect
 00000140   FCTL1
 00000141   FCTL1_H
 00000140   FCTL1_L
@@ -484,8 +484,8 @@ address    name
 00000146   FCTL4
 00000147   FCTL4_H
 00000146   FCTL4_L
-00008a08   Init_TS3A5017
-00008a1c   Init_lcd
+00008a0e   Init_TS3A5017
+00008a22   Init_lcd
 00000a04   LCDBBLKCTL
 00000a05   LCDBBLKCTL_H
 00000a04   LCDBBLKCTL_L
@@ -885,7 +885,7 @@ address    name
 0000019a   SYSUNIV
 0000019b   SYSUNIV_H
 0000019a   SYSUNIV_L
-00008a30   Start_lcd
+00008a36   Start_lcd
 00000352   TA0CCR0
 00000354   TA0CCR1
 00000356   TA0CCR2
@@ -1179,13 +1179,13 @@ address    name
 0000015c   WDTCTL_L
 00006400   __STACK_END
 000000a0   __STACK_SIZE
-00008a84   __TI_CINIT_Base
-00008a8c   __TI_CINIT_Limit
-00008a80   __TI_Handler_Table_Base
-00008a84   __TI_Handler_Table_Limit
+00008a8a   __TI_CINIT_Base
+00008a92   __TI_CINIT_Limit
+00008a86   __TI_Handler_Table_Base
+00008a8a   __TI_Handler_Table_Limit
 UNDEFED    __TI_INITARRAY_Base
 UNDEFED    __TI_INITARRAY_Limit
-00008a66   __TI_ISR_TRAP
+00008a6c   __TI_ISR_TRAP
 00000001   __TI_args_main
 00000001   __TI_exit
 00008036   __TI_frcmpyd
@@ -1215,75 +1215,75 @@ UNDEFED    __TI_INITARRAY_Limit
 0000fff8   __TI_int60
 0000fffa   __TI_int61
 0000fffc   __TI_int62
-0000880a   __TI_zero_init
+00008810   __TI_zero_init
 ffffffff   __binit__
 ffffffff   __c_args__
-000089f2   __mspabi_divu
-00008a44   __mspabi_fixdu
-000085de   __mspabi_fixdul
-00008a6c   __mspabi_fltud
-00008660   __mspabi_fltuld
+000089f8   __mspabi_divu
+00008a4a   __mspabi_fixdu
+000085e4   __mspabi_fixdul
+00008a72   __mspabi_fltud
+00008666   __mspabi_fltuld
 00008310   __mspabi_mpyd
-0000899e   __mspabi_mpyl_f5hw
-000089f2   __mspabi_remu
-000088be   __mspabi_slll_1
-0000889a   __mspabi_slll_10
-00008896   __mspabi_slll_11
-00008892   __mspabi_slll_12
-0000888e   __mspabi_slll_13
-0000888a   __mspabi_slll_14
-00008886   __mspabi_slll_15
-000088ba   __mspabi_slll_2
-000088b6   __mspabi_slll_3
-000088b2   __mspabi_slll_4
-000088ae   __mspabi_slll_5
-000088aa   __mspabi_slll_6
-000088a6   __mspabi_slll_7
-000088a2   __mspabi_slll_8
-0000889e   __mspabi_slll_9
-00008880   __mspabi_sral_1
-0000885c   __mspabi_sral_10
-00008858   __mspabi_sral_11
-00008854   __mspabi_sral_12
-00008850   __mspabi_sral_13
-0000884c   __mspabi_sral_14
-00008848   __mspabi_sral_15
-0000887c   __mspabi_sral_2
-00008878   __mspabi_sral_3
-00008874   __mspabi_sral_4
-00008870   __mspabi_sral_5
-0000886c   __mspabi_sral_6
-00008868   __mspabi_sral_7
-00008864   __mspabi_sral_8
-00008860   __mspabi_sral_9
-00008a56   __mspabi_srll
-000088fc   __mspabi_srll_1
-000088d8   __mspabi_srll_10
-000088d4   __mspabi_srll_11
-000088d0   __mspabi_srll_12
-000088cc   __mspabi_srll_13
-000088c8   __mspabi_srll_14
-000088c4   __mspabi_srll_15
-000088f8   __mspabi_srll_2
-000088f4   __mspabi_srll_3
-000088f0   __mspabi_srll_4
-000088ec   __mspabi_srll_5
-000088e8   __mspabi_srll_6
-000088e4   __mspabi_srll_7
-000088e0   __mspabi_srll_8
-000088dc   __mspabi_srll_9
-000086e2   _auto_init
+000089a4   __mspabi_mpyl_f5hw
+000089f8   __mspabi_remu
+000088c4   __mspabi_slll_1
+000088a0   __mspabi_slll_10
+0000889c   __mspabi_slll_11
+00008898   __mspabi_slll_12
+00008894   __mspabi_slll_13
+00008890   __mspabi_slll_14
+0000888c   __mspabi_slll_15
+000088c0   __mspabi_slll_2
+000088bc   __mspabi_slll_3
+000088b8   __mspabi_slll_4
+000088b4   __mspabi_slll_5
+000088b0   __mspabi_slll_6
+000088ac   __mspabi_slll_7
+000088a8   __mspabi_slll_8
+000088a4   __mspabi_slll_9
+00008886   __mspabi_sral_1
+00008862   __mspabi_sral_10
+0000885e   __mspabi_sral_11
+0000885a   __mspabi_sral_12
+00008856   __mspabi_sral_13
+00008852   __mspabi_sral_14
+0000884e   __mspabi_sral_15
+00008882   __mspabi_sral_2
+0000887e   __mspabi_sral_3
+0000887a   __mspabi_sral_4
+00008876   __mspabi_sral_5
+00008872   __mspabi_sral_6
+0000886e   __mspabi_sral_7
+0000886a   __mspabi_sral_8
+00008866   __mspabi_sral_9
+00008a5c   __mspabi_srll
+00008902   __mspabi_srll_1
+000088de   __mspabi_srll_10
+000088da   __mspabi_srll_11
+000088d6   __mspabi_srll_12
+000088d2   __mspabi_srll_13
+000088ce   __mspabi_srll_14
+000088ca   __mspabi_srll_15
+000088fe   __mspabi_srll_2
+000088fa   __mspabi_srll_3
+000088f6   __mspabi_srll_4
+000088f2   __mspabi_srll_5
+000088ee   __mspabi_srll_6
+000088ea   __mspabi_srll_7
+000088e6   __mspabi_srll_8
+000088e2   __mspabi_srll_9
+000086e8   _auto_init
 00008000   _c_int00
 00008000   _c_int00_noexit
 0000fffe   _reset_vector
 00006360   _stack
-00008a72   _system_pre_init
-00008a76   abort
+00008a78   _system_pre_init
+00008a7c   abort
 00002424   average
 ffffffff   binit
 00002426   index
 00002428   k
-00008956   main
+0000895c   main
 0000802c   number
 00002400   result
 
@@ -2213,80 +2213,80 @@ address    name
 00008036   __TI_frcmpyd
 00008310   __mspabi_mpyd
 00008554   DataDisposalA
-000085de   __mspabi_fixdul
-00008660   __mspabi_fltuld
-000086e2   _auto_init
-00008752   ADC12DisposalFunction
-000087b0   DataDisposalB
-0000880a   __TI_zero_init
-00008848   __mspabi_sral_15
-0000884c   __mspabi_sral_14
-00008850   __mspabi_sral_13
-00008854   __mspabi_sral_12
-00008858   __mspabi_sral_11
-0000885c   __mspabi_sral_10
-00008860   __mspabi_sral_9
-00008864   __mspabi_sral_8
-00008868   __mspabi_sral_7
-0000886c   __mspabi_sral_6
-00008870   __mspabi_sral_5
-00008874   __mspabi_sral_4
-00008878   __mspabi_sral_3
-0000887c   __mspabi_sral_2
-00008880   __mspabi_sral_1
-00008886   __mspabi_slll_15
-0000888a   __mspabi_slll_14
-0000888e   __mspabi_slll_13
-00008892   __mspabi_slll_12
-00008896   __mspabi_slll_11
-0000889a   __mspabi_slll_10
-0000889e   __mspabi_slll_9
-000088a2   __mspabi_slll_8
-000088a6   __mspabi_slll_7
-000088aa   __mspabi_slll_6
-000088ae   __mspabi_slll_5
-000088b2   __mspabi_slll_4
-000088b6   __mspabi_slll_3
-000088ba   __mspabi_slll_2
-000088be   __mspabi_slll_1
-000088c4   __mspabi_srll_15
-000088c8   __mspabi_srll_14
-000088cc   __mspabi_srll_13
-000088d0   __mspabi_srll_12
-000088d4   __mspabi_srll_11
-000088d8   __mspabi_srll_10
-000088dc   __mspabi_srll_9
-000088e0   __mspabi_srll_8
-000088e4   __mspabi_srll_7
-000088e8   __mspabi_srll_6
-000088ec   __mspabi_srll_5
-000088f0   __mspabi_srll_4
-000088f4   __mspabi_srll_3
-000088f8   __mspabi_srll_2
-000088fc   __mspabi_srll_1
-00008902   DataDisposalH
-00008930   ADC12Set
-00008956   main
-0000897c   DisposalSelect
-0000899e   __mspabi_mpyl_f5hw
-000089c0   Backlight_lcd
-000089dc   Clear_lcd
-000089f2   __mspabi_divu
-000089f2   __mspabi_remu
-00008a08   Init_TS3A5017
-00008a1c   Init_lcd
-00008a30   Start_lcd
-00008a44   __mspabi_fixdu
-00008a56   __mspabi_srll
-00008a66   __TI_ISR_TRAP
-00008a6c   __mspabi_fltud
-00008a72   _system_pre_init
-00008a76   C$$EXIT
-00008a76   abort
-00008a80   __TI_Handler_Table_Base
-00008a84   __TI_CINIT_Base
-00008a84   __TI_Handler_Table_Limit
-00008a8c   __TI_CINIT_Limit
+000085e4   __mspabi_fixdul
+00008666   __mspabi_fltuld
+000086e8   _auto_init
+00008758   ADC12DisposalFunction
+000087b6   DataDisposalB
+00008810   __TI_zero_init
+0000884e   __mspabi_sral_15
+00008852   __mspabi_sral_14
+00008856   __mspabi_sral_13
+0000885a   __mspabi_sral_12
+0000885e   __mspabi_sral_11
+00008862   __mspabi_sral_10
+00008866   __mspabi_sral_9
+0000886a   __mspabi_sral_8
+0000886e   __mspabi_sral_7
+00008872   __mspabi_sral_6
+00008876   __mspabi_sral_5
+0000887a   __mspabi_sral_4
+0000887e   __mspabi_sral_3
+00008882   __mspabi_sral_2
+00008886   __mspabi_sral_1
+0000888c   __mspabi_slll_15
+00008890   __mspabi_slll_14
+00008894   __mspabi_slll_13
+00008898   __mspabi_slll_12
+0000889c   __mspabi_slll_11
+000088a0   __mspabi_slll_10
+000088a4   __mspabi_slll_9
+000088a8   __mspabi_slll_8
+000088ac   __mspabi_slll_7
+000088b0   __mspabi_slll_6
+000088b4   __mspabi_slll_5
+000088b8   __mspabi_slll_4
+000088bc   __mspabi_slll_3
+000088c0   __mspabi_slll_2
+000088c4   __mspabi_slll_1
+000088ca   __mspabi_srll_15
+000088ce   __mspabi_srll_14
+000088d2   __mspabi_srll_13
+000088d6   __mspabi_srll_12
+000088da   __mspabi_srll_11
+000088de   __mspabi_srll_10
+000088e2   __mspabi_srll_9
+000088e6   __mspabi_srll_8
+000088ea   __mspabi_srll_7
+000088ee   __mspabi_srll_6
+000088f2   __mspabi_srll_5
+000088f6   __mspabi_srll_4
+000088fa   __mspabi_srll_3
+000088fe   __mspabi_srll_2
+00008902   __mspabi_srll_1
+00008908   DataDisposalH
+00008936   ADC12Set
+0000895c   main
+00008982   DisposalSelect
+000089a4   __mspabi_mpyl_f5hw
+000089c6   Backlight_lcd
+000089e2   Clear_lcd
+000089f8   __mspabi_divu
+000089f8   __mspabi_remu
+00008a0e   Init_TS3A5017
+00008a22   Init_lcd
+00008a36   Start_lcd
+00008a4a   __mspabi_fixdu
+00008a5c   __mspabi_srll
+00008a6c   __TI_ISR_TRAP
+00008a72   __mspabi_fltud
+00008a78   _system_pre_init
+00008a7c   C$$EXIT
+00008a7c   abort
+00008a86   __TI_Handler_Table_Base
+00008a8a   __TI_CINIT_Base
+00008a8a   __TI_Handler_Table_Limit
+00008a92   __TI_CINIT_Limit
 0000ffca   __TI_int37
 0000ffcc   __TI_int38
 0000ffce   __TI_int39

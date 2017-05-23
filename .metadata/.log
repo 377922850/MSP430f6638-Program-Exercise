@@ -1712,3 +1712,11 @@ java.nio.channels.ClosedByInterruptException
 !ENTRY com.ti.ccstudio.debug 1 0 2017-05-23 16:21:04.579
 !MESSAGE DS_ERROR: Error connecting to the target:
 Could not find device (or device not supported)
+
+!ENTRY com.ti.ccstudio.debug 1 0 2017-05-23 16:25:36.992
+!MESSAGE DS_ERROR: MSP430: Error connecting to the target: Could not find device (or device not supported)
+
+
+!ENTRY com.ti.ccstudio.debug 1 0 2017-05-23 16:25:37.086
+!MESSAGE DS_ERROR: Error connecting to the target:
+Could not find device (or device not supported)
