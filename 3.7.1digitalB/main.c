@@ -10,6 +10,7 @@
 #define e 0x02
 
 volatile unsigned int time,i,j,k,index,average;
+volatile float AVERAGE;
 unsigned int long result[9];
 
 const char number[] =
@@ -84,7 +85,7 @@ void ADC12Set()
 {
 	P6SEL |= BIT6;
 	ADC12CTL0 = ADC12MSC + ADC12ON + ADC12SHT0_15;
-	ADC12CTL1 = ADC12SHP + ADC12CONSEQ_2;
+	ADC12CTL1 = ADC12SHP + ADC12CONSEQ_2 + ADC12SSEL_1;
 	ADC12MCTL0 = ADC12INCH_6;
 	ADC12IE |= ADC12IE0;
 	ADC12CTL0 |= ADC12ENC;
@@ -93,10 +94,10 @@ void ADC12Set()
 
 void ADC12DisposalFunction()
 {
-	average = 0;
 	result[index++] = ADC12MEM0;
 	if(index == 8)
 	{
+		average = 0;
 		for(k=0;k<8;k++)
 		{
 			average += result[k];
@@ -122,6 +123,15 @@ void DataDisposalH()
 	LCDMEM[5] = number[average % 16];
 }
 
+void DataDisposalA()
+{
+	average *= 0.806;
+	LCDMEM[2] = number[average / 1000];
+	LCDMEM[3] = number[(average / 100) % 10];
+	LCDMEM[4] = number[(average / 10) % 10];
+	LCDMEM[5] = number[average % 10];
+}
+
 void DisposalSelect(unsigned int sign)
 {
 	if(sign == 1)
@@ -131,6 +141,10 @@ void DisposalSelect(unsigned int sign)
 	if(sign == 2)
 	{
 		DataDisposalH();
+	}
+	if(sign == 3)
+	{
+		DataDisposalA();
 	}
 }
 
@@ -149,15 +163,6 @@ void main(void)
 #pragma vector = ADC12_VECTOR
 __interrupt void VoltageDisplay()
 {
-	switch(ADC12IV)
-	{
-    	case 0: ADC12DisposalFunction();DisposalSelect(1);break;
-    	case 2: break;
-    	case 4: break;
-    	case 6: break;
-    	case 8: break;
-    	case 10: break;
-    	case 12: break;
-    	case 14: break;
-	}
+	ADC12DisposalFunction();
+	DisposalSelect(3);
 }
