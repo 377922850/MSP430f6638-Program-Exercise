@@ -1,8 +1,7 @@
 #include <msp430f6638.h>
 
 void main(void)
-{
-	WDTCTL = WDTPW + WDTHOLD;
+{	WDTCTL = WDTPW + WDTHOLD;
 
 	while(BAKCTL&LOCKIO)
 		BAKCTL&=~(LOCKIO);
@@ -16,7 +15,7 @@ void main(void)
 
 	
 	UCA1CTL1 |= UCSWRST;
-	UCA1CTL1 |= UCSSEL_1;
+	UCA1CTL1 |= UCSSEL_1;                     //1048576
 	UCA1BR0 = 0x03;                           // 32kHz/9600=3.41
 	UCA1BR1 = 0x00;
 	UCA1MCTL = UCBRS_3+UCBRF_0;               // UCBRS = round[(N-INT(N))¡Á8] = 3
